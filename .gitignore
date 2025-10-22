@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env.*
+.env
+*.pnp*
+*venv
+.flaskenv
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+coverage-final.json
+lcov.info
