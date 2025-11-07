@@ -1,13 +1,8 @@
-# Swish Analytics - Fullstack Assessment Setup
+# Player Market Stats 🏀
 
-## Introduction
-
-This skeleton project displays NBA player betting markets. **For assessment instructions, see [CANDIDATE_BRIEF.md](./CANDIDATE_BRIEF.md).**
+This small fullstack project displays NBA player betting markets for information.
 
 ## Setup Instructions
-
-### Fork Repo
-- Please create _a fork_ of this repo to your personal Github.
 
 ### Prerequisites
 
@@ -37,31 +32,6 @@ The app will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:3001
 - Health check: http://localhost:3001/health
-
-## Submission
-
-When you've completed the assessment and are ready to submit, please send us a link to the repo on _your personal github account_ with all of your changes.
-
-## Project Structure
-
-```
-├── client/                 # React + TypeScript frontend
-│   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── hooks/          # Custom hooks
-│   │   ├── services/       # API calls
-│   │   └── types/          # TypeScript types
-├── server/                 # Node.js + TypeScript backend
-│   ├── src/
-│   │   ├── routes/         # API routes
-│   │   ├── services/       # Business logic
-│   │   ├── scripts/        # Database scripts
-│   │   └── types/          # TypeScript types
-└── database/              # SQL initialization and data files
-    ├── init.sql
-    ├── props.json
-    └── alternates.json
-```
 
 ## Troubleshooting
 
@@ -94,5 +64,3 @@ When you've completed the assessment and are ready to submit, please send us a l
 1. Try a clean restart: `npm run docker:down && npm run setup && npm start`
 2. Check all prerequisites are installed and running
 3. Verify no other services are using ports 3000, 3001, 3306
-
-Good luck! 🏀
