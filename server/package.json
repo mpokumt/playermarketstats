@@ -1,7 +1,7 @@
 {
-  "name": "swish-server",
+  "name": "project-server",
   "version": "1.0.0",
-  "description": "Swish Analytics Assessment Server",
+  "description": "Player Market Analytics Server",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",

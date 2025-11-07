@@ -1,7 +1,7 @@
 {
-  "name": "swish-analytics-assessment",
+  "name": "player-market-stats",
   "version": "1.0.0",
-  "description": "Swish Analytics Fullstack Assessment - Skeleton Project",
+  "description": "Player Market Basketball Stats",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
@@ -14,7 +14,7 @@
     "install:all": "npm install && cd client && npm install && cd ../server && npm install",
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
-    "docker:verify": "docker ps | grep swish_mysql || echo 'MySQL container not running. Run: npm run docker:up'",
+    "docker:verify": "docker ps | grep playermarketstats || echo 'MySQL container not running. Run: npm run docker:up'",
     "setup": "npm run docker:up && npx wait-on tcp:localhost:3306 --timeout 30000 && npm run install:all",
     "verify": "npm run docker:verify && echo 'Checking Node version...' && node --version && echo 'Setup verification complete!'"
   },
@@ -32,6 +32,5 @@
     "mysql",
     "assessment"
   ],
-  "author": "Swish Analytics",
   "license": "MIT"
 }
