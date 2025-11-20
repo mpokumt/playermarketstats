@@ -1,6 +1,10 @@
 # Player Market Stats 🏀
 
-This small fullstack project displays NBA player betting markets for information.
+This small fullstack project displays NBA player betting markets for information. Using this project to demonstrate the following:
+- Frontend setup and application
+- Backend configuration and API calls
+- Database reading and updates
+- Unit testing
 
 ## Setup Instructions
 
