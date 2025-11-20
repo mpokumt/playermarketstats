@@ -6,6 +6,8 @@ This small fullstack project displays NBA player betting markets for information
 - Database reading and updates
 - Unit testing
 
+https://github.com/user-attachments/assets/eeaef7bb-e443-4522-ae05-38fe7950bfe9
+
 ## Setup Instructions
 
 ### Prerequisites
